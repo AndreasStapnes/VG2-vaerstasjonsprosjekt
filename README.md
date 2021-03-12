@@ -1,7 +1,7 @@
 # VG2-vaerstasjonsprosjekt
 Dette er et gammel C++-prosjekt jeg styrte med som hobby i VG2. Jeg er velkjent med at koden er suboptimal, og gjerne kunne trengt en oppfriskning. Grunnet alle feilene jeg oppdaget i mine design kommer jeg likevel ikke til å gjenoppta dette. Prosjektet ble for omstendelig. Dette prosjektet ligger her kun for å demonstrere programmeringserfaring.
 
-Den nyeste versjonen av prosjektet er UniterGiOppFlere. Navnet stammer fra en kombinasjon av generell misnøye og at prosjektet er en kombinasjon av værmåler-prosjektet og rf-sender-prosjektet (samme chip skulle håndtere begge)  
+Den nyeste versjonen av prosjektet er UniterGiOppFlere. Navnet stammer fra en kombinasjon av generell misnøye og at prosjektet er en kombinasjon av et værmåler-prosjekt og rf-sender-prosjekt (samme chip skulle håndtere begge)  
   
 Prosjektet bestod av 3 egendesignede PCB-er bestående av en mikrokontroller, batteri, solcelle-ladekrets og rf-transmitter. I tillegg kom en server bestående av to tvillingmikrokontrollere (grunnet at hver ikke hadde nok pins), ladekrets, rf-transmitter, (div værmålerutstyr som vindmåler osv.), hvilket var designet til å koples opp mot en raspberry pi.  
   
