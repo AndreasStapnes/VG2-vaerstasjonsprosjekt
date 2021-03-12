@@ -5,7 +5,7 @@ Den nyeste versjonen av prosjektet er UniterGiOppFlere. Navnet stammer fra en ko
   
 Prosjektet bestod av 3 egendesignede PCB-er bestående av en mikrokontroller, batteri, solcelle-ladekrets og rf-transmitter. I tillegg kom en server bestående av to tvillingmikrokontrollere (grunnet at hver ikke hadde nok pins), ladekrets, rf-transmitter, (div værmålerutstyr som vindmåler osv.), hvilket var designet til å koples opp mot en raspberry pi.  
   
-En grov beskrivelse av kretskortet er som følger: (se gjerne bilde)  
+En grov beskrivelse av det egendesignede kretskortet er som følger: (se gjerne bilde)  
 Den kvadratiske store chippen er en 8-bit atmega328p mikrokontroller. Denne ble programmert med et programmeringskretskort jeg kunne kople til pins markert med gnd,tx og rx.  
 Den lille rektangulære chippen ved siden av mikrokontrolleren er en 128kb EEPROM (lagringschip)  
 Det påloddede kretskortet bestående av svært små komponenter er en kommersiell rf-chip (ikke designet av meg), hvilket kommuniserer med mikrokontrolleren gjennom SPI.  
