@@ -33,3 +33,6 @@ Her er en liste forbedringer jeg planla å gjøre. Jeg sliter selv med å si nø
 *Send melding om å sende mer data  
 *Siste send før bytt - medfører kresj!!!!  
 *Sov hvis ingen melding oppdaget  
+  
+  
+Biblioteker anvendt i koden har blitt betydelig endret under mine design (ikke all funksjonalitet i disse var kompatible med det jeg ville oppnå). Likevel, da jeg ikke er forfatteren av majoriteten av disse bibliotekene vegrer jeg meg litt for å publisere disse.
