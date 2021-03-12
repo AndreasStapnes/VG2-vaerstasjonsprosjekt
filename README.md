@@ -5,7 +5,14 @@ Den nyeste versjonen av prosjektet er UniterGiOppFlere. Navnet stammer fra en ko
   
 Prosjektet bestod av 3 egendesignede PCB-er bestående av en mikrokontroller, batteri, solcelle-ladekrets og rf-transmitter. I tillegg kom en server bestående av to tvillingmikrokontrollere (grunnet at hver ikke hadde nok pins), ladekrets, rf-transmitter, (div værmålerutstyr som vindmåler osv.), hvilket var designet til å koples opp mot en raspberry pi.  
   
-Prosjektet ble terminert etter at jeg etter utallige timer debugging oppdaget en loddefeil på ett av kretskortene. Jeg mistenker dette hadde en stor rolle i hvordan sendesystemet hadde enormt pakketap (rundt 80%). I tillegg ble filene programmert svært lite orbjektorientert (langt mer prosedyreorientert), noe som gjorde de svært uoversiktlige. Kombinert med begynnelsen av mer krevende skolefag besluttet jeg det var best å gi opp.  
+En grov beskrivelse av kretskortet er som følger: (se gjerne bilde)  
+Den kvadratiske store chippen er en 8-bit atmega328p mikrokontroller. Denne ble programmert med et programmeringskretskort jeg kunne kople til pins markert med gnd,tx og rx.  
+Den lille rektangulære chippen ved siden av mikrokontrolleren er en 128kb EEPROM (lagringschip)  
+Det påloddede kretskortet bestående av svært små komponenter er en kommersiell rf-chip (ikke designet av meg), hvilket kommuniserer med mikrokontrolleren gjennom SPI.  
+Alle komponentene til høyre for dette tilhører en ladekrets med kontakter for solcellepanel (hvitt rektangel)  
+På undersiden er det store hvite rektangelet en forholdsvis kraftig LED, og den minste er en temperatur-og-fuktighets sensor.  
+  
+Prosjektet ble terminert da at jeg etter utallige timer debugging oppdaget en loddefeil på ett av kretskortene (en kan skimte på bildet av mikrokontrollerens pins ikke er fullstendig koplet med loddetinn). Jeg mistenker dette hadde en stor rolle i hvordan sendesystemet hadde enormt pakketap (rundt 80%). I tillegg ble filene programmert svært lite orbjektorientert (langt mer prosedyreorientert), noe som gjorde de svært uoversiktlige. Kombinert med begynnelsen av mer krevende skolefag besluttet jeg det var best å gi opp.  
   
 Her er en liste forbedringer jeg planla å gjøre. Jeg sliter selv med å si nøyaktig hva de betydde.  
 *ack flag lik shortrequest flag - gi rettigheter  
