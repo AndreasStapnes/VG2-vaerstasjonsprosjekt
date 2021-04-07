@@ -1,5 +1,5 @@
 # VG2-vaerstasjonsprosjekt
-Dette er et gammel C++-prosjekt jeg styrte med som hobby i VG2. Jeg er velkjent med at koden er suboptimal, og gjerne kunne trengt en oppfriskning. Grunnet alle feilene jeg oppdaget i mine design kommer jeg likevel ikke til å gjenoppta dette. Prosjektet ble for omstendelig. Dette prosjektet ligger her kun for å demonstrere programmeringserfaring.
+Dette er et gammelt C++-prosjekt jeg styrte med som hobby i VG2. Jeg er velkjent med at koden er suboptimal, og gjerne kunne trengt en oppfriskning. Grunnet alle feilene jeg oppdaget i mine design kommer jeg likevel ikke til å gjenoppta dette. Prosjektet ble for omstendelig. Dette prosjektet ligger her kun for å demonstrere programmeringserfaring.
 
 Den nyeste versjonen av prosjektet er UniterGiOppFlere. Navnet stammer fra en kombinasjon av generell misnøye og at prosjektet er en kombinasjon av et værmåler-prosjekt og rf-sender-prosjekt (samme chip skulle håndtere begge)  
   
